@@ -41,8 +41,6 @@ async function main() {
     }
   });
 
-  app.get("/health", async () => ({ ok: true, service: "seen-api" }));
-
   await app.register(authRoutes);
   await app.register(gameRoutes);
   await app.register(adminRoutes);
