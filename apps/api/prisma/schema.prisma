@@ -1,0 +1,185 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  TEXT
+  TRUE_FALSE
+  IMAGE
+  AUDIO
+  VIDEO
+  DRAWING
+  ACTING
+  GUESS_PERSON
+  NO_WORDS
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+  EXPERT
+}
+
+enum GameMode {
+  CLASSIC
+  QUICK
+  CUSTOM
+  PARTY
+}
+
+enum GameStatus {
+  LOBBY
+  ACTIVE
+  FINISHED
+  ABANDONED
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String?  @unique
+  passwordHash String?
+  displayName  String
+  role         Role     @default(USER)
+  isGuest      Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  hostedGames Game[]   @relation("GameHost")
+  memberships RoomPlayer[]
+}
+
+model Category {
+  id          String   @id
+  slug        String   @unique
+  nameAr      String
+  nameEn      String
+  descriptionAr String
+  descriptionEn String
+  icon        String
+  color       String
+  accentColor String
+  /** Cover art for Tahdani-style category cards (upload via admin) */
+  imageUrl    String?
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  questions Question[]
+}
+
+model Question {
+  id               String       @id @default(cuid())
+  categoryId       String
+  category         Category     @relation(fields: [categoryId], references: [id])
+  difficulty       Difficulty
+  points           Int
+  type             QuestionType
+  language         String       @default("ar")
+  questionTextAr   String
+  questionTextEn   String
+  answerAr         String
+  answerEn         String
+  acceptedAnswers  String[]
+  optionsJson      Json?
+  explanationAr    String?
+  explanationEn    String?
+  hintAr           String?
+  hintEn           String?
+  mediaType        String?
+  mediaUrl         String?
+  mediaThumbnail   String?
+  isActive         Boolean      @default(true)
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+
+  @@index([categoryId, points, isActive])
+  @@index([categoryId, difficulty])
+  @@index([type])
+}
+
+model Room {
+  id        String   @id @default(cuid())
+  code      String   @unique
+  isLocal   Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  players RoomPlayer[]
+  games   Game[]
+}
+
+model RoomPlayer {
+  id          String  @id @default(cuid())
+  roomId      String
+  room        Room    @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  userId      String?
+  user        User?   @relation(fields: [userId], references: [id])
+  displayName String
+  teamId      String?
+  isHost      Boolean @default(false)
+  connected   Boolean @default(true)
+  socketId    String?
+
+  @@index([roomId])
+}
+
+model Game {
+  id              String     @id @default(cuid())
+  roomId          String
+  room            Room       @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  hostId          String?
+  host            User?      @relation("GameHost", fields: [hostId], references: [id])
+  mode            GameMode   @default(CLASSIC)
+  status          GameStatus @default(LOBBY)
+  stateJson       Json
+  teamAScore      Int        @default(0)
+  teamBScore      Int        @default(0)
+  winner          String?
+  categoryIds     String[]
+  timerSeconds    Int        @default(30)
+  language        String     @default("ar")
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+  finishedAt      DateTime?
+
+  events GameEvent[]
+
+  @@index([roomId])
+  @@index([status])
+}
+
+model GameEvent {
+  id        String   @id @default(cuid())
+  gameId    String
+  game      Game     @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  type      String
+  payload   Json
+  createdAt DateTime @default(now())
+
+  @@index([gameId])
+}
+
+model MediaAsset {
+  id           String   @id @default(cuid())
+  filename     String
+  mimeType     String
+  size         Int
+  url          String
+  /// Optional blob for free-tier deploys without object storage
+  data         Bytes?
+  uploadedById String?
+  createdAt    DateTime @default(now())
+}

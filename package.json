@@ -1,0 +1,26 @@
+{
+  "name": "seen-jeem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "سؤال جواب — Multiplayer Arabic trivia party game",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:web": "pnpm --filter @seen/web dev",
+    "dev:api": "pnpm --filter @seen/api dev",
+    "build": "pnpm -r run build",
+    "db:generate": "pnpm --filter @seen/api prisma:generate",
+    "db:migrate": "pnpm --filter @seen/api prisma:migrate",
+    "db:seed": "pnpm --filter @seen/api prisma:seed",
+    "db:reset": "pnpm --filter @seen/api prisma:reset",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "setup": "pnpm install && pnpm docker:up && sleep 3 && pnpm db:migrate && pnpm db:seed",
+    "media:migrate-minio": "node scripts/migrate-minio-to-public.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.15.0"
+}

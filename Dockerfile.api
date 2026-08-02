@@ -1,0 +1,30 @@
+# Render / Docker: build & run the Fastify API from the pnpm monorepo
+FROM node:20-bookworm-slim AS base
+RUN corepack enable && corepack prepare pnpm@9.15.0 --activate
+WORKDIR /app
+
+FROM base AS deps
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY apps/api/package.json apps/api/
+COPY packages/shared/package.json packages/shared/
+RUN pnpm install --frozen-lockfile
+
+FROM deps AS build
+COPY packages/shared packages/shared
+COPY apps/api apps/api
+RUN pnpm --filter @seen/shared build && \
+    pnpm --filter @seen/api prisma:generate && \
+    pnpm --filter @seen/api build
+
+FROM base AS runner
+ENV NODE_ENV=production
+COPY --from=deps /app/node_modules /app/node_modules
+COPY --from=deps /app/apps/api/node_modules /app/apps/api/node_modules
+COPY --from=deps /app/packages/shared/node_modules /app/packages/shared/node_modules
+COPY --from=build /app/packages/shared /app/packages/shared
+COPY --from=build /app/apps/api /app/apps/api
+COPY package.json pnpm-workspace.yaml ./
+
+WORKDIR /app/apps/api
+EXPOSE 4000
+CMD ["sh", "-c", "pnpm prisma:migrate && node dist/index.js"]

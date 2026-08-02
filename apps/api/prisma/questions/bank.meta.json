@@ -1,0 +1,31 @@
+{
+  "total": 1300,
+  "perCategory": {
+    "general": 50,
+    "history": 50,
+    "geography": 50,
+    "science": 50,
+    "technology": 50,
+    "sports": 50,
+    "football": 50,
+    "movies": 50,
+    "tv": 50,
+    "anime": 50,
+    "music": 50,
+    "celebrities": 50,
+    "arab-culture": 50,
+    "islamic": 50,
+    "food": 50,
+    "countries": 50,
+    "animals": 50,
+    "brands": 50,
+    "gaming": 50,
+    "cars": 50,
+    "space": 50,
+    "literature": 50,
+    "languages": 50,
+    "riddles": 50,
+    "math": 50,
+    "random": 50
+  }
+}

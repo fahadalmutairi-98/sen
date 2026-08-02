@@ -1,0 +1,30 @@
+# Blueprint: https://dashboard.render.com → New → Blueprint
+# Free-tier friendly API for سؤال جواب (Neon Postgres + STORAGE_MODE=db)
+services:
+  - type: web
+    name: seen-api
+    runtime: node
+    plan: free
+    rootDir: .
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter @seen/shared build && pnpm --filter @seen/api prisma:generate && pnpm --filter @seen/api build
+    startCommand: cd apps/api && pnpm prisma:migrate && node dist/index.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: API_HOST
+        value: "0.0.0.0"
+      - key: STORAGE_MODE
+        value: db
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        sync: false
+      - key: API_PUBLIC_URL
+        sync: false
+      - key: ADMIN_EMAIL
+        value: admin@seenjeem.local
+      - key: ADMIN_PASSWORD
+        sync: false

@@ -1,0 +1,1010 @@
+[
+  {
+    "categoryId": "logos",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما الشركة صاحبة هذا الشعار؟",
+    "questionTextEn": "Which company owns this logo?",
+    "answerAr": "آبل",
+    "answerEn": "Apple",
+    "acceptedAnswers": [
+      "أبل",
+      "apple",
+      "آبل",
+      "Apple"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/apple-bite.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما العلامة الرياضية صاحبة هذا الشعار؟",
+    "questionTextEn": "Which sports brand is this?",
+    "answerAr": "نايكي",
+    "answerEn": "Nike",
+    "acceptedAnswers": [
+      "نايك",
+      "nike",
+      "نايكي",
+      "Nike"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/swoosh.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما سلسلة المطاعم صاحبة هذا الشعار؟",
+    "questionTextEn": "Which restaurant chain is this?",
+    "answerAr": "ماكدونالدز",
+    "answerEn": "McDonald's",
+    "acceptedAnswers": [
+      "ماكدونالدز",
+      "mcdonalds",
+      "McDonald's"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/golden-arches.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما شركة السيارات صاحبة هذا الشعار؟",
+    "questionTextEn": "Which car brand is this?",
+    "answerAr": "مرسيدس-بنز",
+    "answerEn": "Mercedes-Benz",
+    "acceptedAnswers": [
+      "مرسيدس",
+      "mercedes",
+      "مرسيدس-بنز",
+      "Mercedes-Benz"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/three-point-star.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما الحدث الرياضي العالمي صاحب هذه الحلقات؟",
+    "questionTextEn": "Which global event uses these rings?",
+    "answerAr": "الألعاب الأولمبية",
+    "answerEn": "Olympic Games",
+    "acceptedAnswers": [
+      "الأولمبياد",
+      "olympics",
+      "الألعاب الأولمبية",
+      "Olympic Games"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/rings-five.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما الشركة التقنية صاحبة شعار التفاحة المقضومة؟",
+    "questionTextEn": "Which tech company uses a bitten apple?",
+    "answerAr": "آبل",
+    "answerEn": "Apple",
+    "acceptedAnswers": [
+      "أبل",
+      "آبل",
+      "Apple"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/apple-bite.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "شعار التفاحة يخص أي شركة هواتف؟",
+    "questionTextEn": "The apple logo belongs to which phone maker?",
+    "answerAr": "آبل",
+    "answerEn": "Apple",
+    "acceptedAnswers": [
+      "أبل",
+      "آبل",
+      "Apple"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/apple-bite.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "شعار القوسين الذهبيين لمطعم أم مشروب؟",
+    "questionTextEn": "Golden arches: restaurant or drink brand?",
+    "answerAr": "مطعم",
+    "answerEn": "Restaurant",
+    "acceptedAnswers": [
+      "مطاعم",
+      "restaurant",
+      "مطعم",
+      "Restaurant"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/golden-arches.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "كم حلقة في شعار الأولمبياد؟",
+    "questionTextEn": "How many rings are in the Olympic logo?",
+    "answerAr": "5",
+    "answerEn": "5",
+    "acceptedAnswers": [
+      "٥",
+      "خمسة",
+      "5"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/rings-five.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "شعار النجمة الثلاثية داخل دائرة لأي شركة؟",
+    "questionTextEn": "Three-point star in a circle — which brand?",
+    "answerAr": "مرسيدس-بنز",
+    "answerEn": "Mercedes-Benz",
+    "acceptedAnswers": [
+      "مرسيدس",
+      "مرسيدس-بنز",
+      "Mercedes-Benz"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/three-point-star.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "شعار «الحركة» المنحنية يخص أي علامة رياضية؟",
+    "questionTextEn": "The curved swoosh belongs to which brand?",
+    "answerAr": "نايكي",
+    "answerEn": "Nike",
+    "acceptedAnswers": [
+      "نايك",
+      "نايكي",
+      "Nike"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/swoosh.svg"
+  },
+  {
+    "categoryId": "logos",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "أي شركة سيارات فاخرة ألمانية يظهر شعارها هنا؟",
+    "questionTextEn": "Which German luxury car brand is shown?",
+    "answerAr": "مرسيدس-بنز",
+    "answerEn": "Mercedes-Benz",
+    "acceptedAnswers": [
+      "مرسيدس",
+      "مرسيدس-بنز",
+      "Mercedes-Benz"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/logos/three-point-star.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم أي دولة هذا؟",
+    "questionTextEn": "Which country's flag is this?",
+    "answerAr": "الكويت",
+    "answerEn": "Kuwait",
+    "acceptedAnswers": [
+      "كويت",
+      "الكويت",
+      "Kuwait"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/kuwait.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم أي دولة هذا؟",
+    "questionTextEn": "Which country's flag is this?",
+    "answerAr": "السعودية",
+    "answerEn": "Saudi Arabia",
+    "acceptedAnswers": [
+      "المملكة العربية السعودية",
+      "saudi",
+      "السعودية",
+      "Saudi Arabia"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/saudi.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم أي دولة هذا؟",
+    "questionTextEn": "Which country's flag is this?",
+    "answerAr": "اليابان",
+    "answerEn": "Japan",
+    "acceptedAnswers": [
+      "japan",
+      "اليابان",
+      "Japan"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/japan.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم أي دولة هذا؟",
+    "questionTextEn": "Which country's flag is this?",
+    "answerAr": "فرنسا",
+    "answerEn": "France",
+    "acceptedAnswers": [
+      "france",
+      "فرنسا",
+      "France"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/france.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم أي دولة خليجية هذا؟",
+    "questionTextEn": "Which Gulf country flag is this?",
+    "answerAr": "الإمارات",
+    "answerEn": "United Arab Emirates",
+    "acceptedAnswers": [
+      "الإمارات العربية المتحدة",
+      "uae",
+      "الإمارات",
+      "United Arab Emirates"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/uae.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم أي دولة هذا؟",
+    "questionTextEn": "Which country's flag is this?",
+    "answerAr": "تركيا",
+    "answerEn": "Turkey",
+    "acceptedAnswers": [
+      "turkey",
+      "تركيا",
+      "Turkey"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/turkey.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما لون الشريط الأسود في علم الكويت؟",
+    "questionTextEn": "What color is the hoist triangle on Kuwait's flag?",
+    "answerAr": "أسود",
+    "answerEn": "Black",
+    "acceptedAnswers": [
+      "الأسود",
+      "أسود",
+      "Black"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/kuwait.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "هل يظهر في هذا العلم هلال ونجمة؟",
+    "questionTextEn": "Does this flag show a crescent and star?",
+    "answerAr": "نعم",
+    "answerEn": "Yes",
+    "acceptedAnswers": [
+      "yes",
+      "نعم",
+      "Yes"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/turkey.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "أي علم فيه دائرة حمراء على خلفية بيضاء؟",
+    "questionTextEn": "Which flag has a red circle on white?",
+    "answerAr": "اليابان",
+    "answerEn": "Japan",
+    "acceptedAnswers": [
+      "اليابان",
+      "Japan"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/japan.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "أي علم خليجي يحمل كتابة الشهادتين؟",
+    "questionTextEn": "Which Gulf flag carries the shahada text?",
+    "answerAr": "السعودية",
+    "answerEn": "Saudi Arabia",
+    "acceptedAnswers": [
+      "السعودية",
+      "Saudi Arabia"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/saudi.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "ما ترتيب الألوان الأفقية في علم الإمارات من الأعلى؟",
+    "questionTextEn": "UAE horizontal colors from top?",
+    "answerAr": "أخضر ثم أبيض ثم أسود",
+    "answerEn": "Green, white, black",
+    "acceptedAnswers": [
+      "أخضر أبيض أسود",
+      "أخضر ثم أبيض ثم أسود",
+      "Green, white, black"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/uae.svg"
+  },
+  {
+    "categoryId": "flags",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "IMAGE",
+    "language": "ar",
+    "questionTextAr": "علم فرنسا كم لوناً عمودياً؟",
+    "questionTextEn": "How many vertical colors does France's flag have?",
+    "answerAr": "3",
+    "answerEn": "3",
+    "acceptedAnswers": [
+      "٣",
+      "ثلاثة",
+      "3"
+    ],
+    "mediaType": "image",
+    "mediaUrl": "/media/flags/france.svg"
+  },
+  {
+    "categoryId": "songs",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "من لُقّبت بكوكب الشرق؟",
+    "questionTextEn": "Who was called Planet of the East?",
+    "answerAr": "أم كلثوم",
+    "answerEn": "Umm Kulthum",
+    "acceptedAnswers": [
+      "ام كلثوم",
+      "أم كلثوم",
+      "Umm Kulthum"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "من لُقّب بالعندليب الأسمر؟",
+    "questionTextEn": "Who was called the Dark Nightingale?",
+    "answerAr": "عبد الحليم حافظ",
+    "answerEn": "Abdel Halim Hafez",
+    "acceptedAnswers": [
+      "عبدالحليم",
+      "عبد الحليم حافظ",
+      "Abdel Halim Hafez"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما آلة أم كلثوم المصاحبة الأشهر؟",
+    "questionTextEn": "Which instrument often accompanies Umm Kulthum?",
+    "answerAr": "العود",
+    "answerEn": "Oud",
+    "acceptedAnswers": [
+      "عود",
+      "العود",
+      "Oud"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "من غنى أغنية «قارئة الفنجان»؟",
+    "questionTextEn": "Who sang Qariat al-Fingan?",
+    "answerAr": "عبد الحليم حافظ",
+    "answerEn": "Abdel Halim Hafez",
+    "acceptedAnswers": [
+      "عبد الحليم حافظ",
+      "Abdel Halim Hafez"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "من لُقّب بفنان العرب؟",
+    "questionTextEn": "Who is known as Artist of the Arabs?",
+    "answerAr": "محمد عبده",
+    "answerEn": "Mohammed Abdu",
+    "acceptedAnswers": [
+      "محمد عبده",
+      "Mohammed Abdu"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما جنسية الفنانة فيروز؟",
+    "questionTextEn": "What is Fairuz's nationality?",
+    "answerAr": "لبنانية",
+    "answerEn": "Lebanese",
+    "acceptedAnswers": [
+      "لبنان",
+      "لبنانية",
+      "Lebanese"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "من لحن معظم أغاني أم كلثوم المتأخرة مع بليغ حمدي؟",
+    "questionTextEn": "Who composed many late Umm Kulthum hits with Baligh?",
+    "answerAr": "بليغ حمدي",
+    "answerEn": "Baligh Hamdi",
+    "acceptedAnswers": [
+      "بليغ حمدي",
+      "Baligh Hamdi"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "كم وتراً لقيتارة كلاسيكية عادة؟",
+    "questionTextEn": "How many strings does a classical guitar usually have?",
+    "answerAr": "6",
+    "answerEn": "6",
+    "acceptedAnswers": [
+      "٦",
+      "6"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما مقام عربي أساسي يبدأ بدرجة الراست؟",
+    "questionTextEn": "Which Arabic maqam starts on rast?",
+    "answerAr": "مقام الراست",
+    "answerEn": "Maqam Rast",
+    "acceptedAnswers": [
+      "الراست",
+      "مقام الراست",
+      "Maqam Rast"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "من غنى «طال الليل» الخليجية الشهيرة؟",
+    "questionTextEn": "Who sang the famous Gulf song Tal al-Layl?",
+    "answerAr": "عبد الكريم عبد القادر",
+    "answerEn": "Abdulkarim Abdulqader",
+    "acceptedAnswers": [
+      "عبد الكريم عبد القادر",
+      "Abdulkarim Abdulqader"
+    ]
+  },
+  {
+    "categoryId": "songs",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "AUDIO",
+    "language": "ar",
+    "questionTextAr": "استمع للمقطع — ما نوع الوسائط؟",
+    "questionTextEn": "Listen — what media type is this?",
+    "answerAr": "صوت",
+    "answerEn": "Audio",
+    "acceptedAnswers": [
+      "audio",
+      "مقطع صوتي",
+      "صوت",
+      "Audio"
+    ],
+    "mediaType": "audio",
+    "mediaUrl": "/media/samples/melody-hint.wav",
+    "hintAr": "ارفع مقاطع أغاني حقيقية من لوحة التحكم لاحقاً",
+    "hintEn": "Upload real song clips from admin later"
+  },
+  {
+    "categoryId": "songs",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "AUDIO",
+    "language": "ar",
+    "questionTextAr": "استمع للنغمة ثم أظهر الجواب: ما اسم الفئة؟",
+    "questionTextEn": "Listen then reveal: which category is this?",
+    "answerAr": "أغاني",
+    "answerEn": "Songs",
+    "acceptedAnswers": [
+      "songs",
+      "أغاني",
+      "Songs"
+    ],
+    "mediaType": "audio",
+    "mediaUrl": "/media/samples/melody-hint.wav",
+    "hintAr": "ارفع مقاطع أغاني حقيقية من لوحة التحكم لاحقاً",
+    "hintEn": "Upload real song clips from admin later"
+  },
+  {
+    "categoryId": "clips",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "في أي برنامج كويتي يُطرح سؤال وجواب بأسلوب سين جيم؟",
+    "questionTextEn": "Which Kuwaiti show style asks Seen Jeem-style Q&A?",
+    "answerAr": "سين جيم",
+    "answerEn": "Seen Jeem",
+    "acceptedAnswers": [
+      "سين جيم",
+      "Seen Jeem"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما الرياضة الأشهر لمقاطع «من سجل الهدف»؟",
+    "questionTextEn": "Which sport is 'who scored' clips about?",
+    "answerAr": "كرة القدم",
+    "answerEn": "Football",
+    "acceptedAnswers": [
+      "كورة",
+      "كرة القدم",
+      "Football"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما منصة المقاطع القصيرة الأشهر عالمياً؟",
+    "questionTextEn": "What is the most famous short-clip platform?",
+    "answerAr": "تيك توك",
+    "answerEn": "TikTok",
+    "acceptedAnswers": [
+      "tiktok",
+      "تيك توك",
+      "TikTok"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما اسم جهاز عرض المباريات على الشاشة الكبيرة في الديوانية غالباً؟",
+    "questionTextEn": "What do gatherings often use to show match clips?",
+    "answerAr": "التلفاز",
+    "answerEn": "TV",
+    "acceptedAnswers": [
+      "تلفزيون",
+      "الشاشة",
+      "التلفاز",
+      "TV"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "لماذا تُستخدم المقاطع في ألعاب التحدي؟",
+    "questionTextEn": "Why do party trivia games use clips?",
+    "answerAr": "لتخمين المشهد أو اللاعب أو الأغنية",
+    "answerEn": "To guess the scene, player, or song",
+    "acceptedAnswers": [
+      "لتخمين المشهد أو اللاعب أو الأغنية",
+      "To guess the scene, player, or song"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "هل أسئلة المقاطع تكون نصاً فقط عادة؟",
+    "questionTextEn": "Are clip questions usually text-only?",
+    "answerAr": "لا",
+    "answerEn": "No",
+    "acceptedAnswers": [
+      "لا، تكون فيديو",
+      "لا",
+      "No"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما نوع الوسائط الأنسب لفئة «مقاطع فن خليجي»؟",
+    "questionTextEn": "Best media for Gulf entertainment clips?",
+    "answerAr": "فيديو",
+    "answerEn": "Video",
+    "acceptedAnswers": [
+      "video",
+      "فيديو",
+      "Video"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "بعد انتهاء المقطع ماذا يفعل المضيف في أسلوب سين جيم؟",
+    "questionTextEn": "After a clip, what does the Seen Jeem host do?",
+    "answerAr": "يظهر الجواب ثم يحسب النقاط",
+    "answerEn": "Reveal the answer then award points",
+    "acceptedAnswers": [
+      "يظهر الجواب ثم يحسب النقاط",
+      "Reveal the answer then award points"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما امتداد ملف فيديو شائع للرفع؟",
+    "questionTextEn": "A common video upload extension?",
+    "answerAr": "mp4",
+    "answerEn": "mp4",
+    "acceptedAnswers": [
+      "MP4",
+      "mp4"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما منصة فيديو غوغل الأشهر؟",
+    "questionTextEn": "Google's famous video platform?",
+    "answerAr": "يوتيوب",
+    "answerEn": "YouTube",
+    "acceptedAnswers": [
+      "youtube",
+      "يوتيوب",
+      "YouTube"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "هل يمكن رفع فيديو لسؤال من لوحة التحكم؟",
+    "questionTextEn": "Can admins attach video to a question?",
+    "answerAr": "نعم",
+    "answerEn": "Yes",
+    "acceptedAnswers": [
+      "yes",
+      "نعم",
+      "Yes"
+    ]
+  },
+  {
+    "categoryId": "clips",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما مدة المقطع المناسبة عادة في ألعاب الديوانية؟",
+    "questionTextEn": "Typical clip length in party trivia?",
+    "answerAr": "من ١٠ إلى ٣٠ ثانية",
+    "answerEn": "About 10–30 seconds",
+    "acceptedAnswers": [
+      "قصير",
+      "من ١٠ إلى ٣٠ ثانية",
+      "About 10–30 seconds"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما عاصمة الكويت؟",
+    "questionTextEn": "What is the capital of Kuwait?",
+    "answerAr": "الكويت",
+    "answerEn": "Kuwait City",
+    "acceptedAnswers": [
+      "مدينة الكويت",
+      "الكويت",
+      "Kuwait City"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما العملة الرسمية في الكويت؟",
+    "questionTextEn": "What is Kuwait's currency?",
+    "answerAr": "الدينار الكويتي",
+    "answerEn": "Kuwaiti dinar",
+    "acceptedAnswers": [
+      "دينار",
+      "د.ك",
+      "الدينار الكويتي",
+      "Kuwaiti dinar"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "في أي قارة تقع الكويت؟",
+    "questionTextEn": "Which continent is Kuwait on?",
+    "answerAr": "آسيا",
+    "answerEn": "Asia",
+    "acceptedAnswers": [
+      "آسيا",
+      "Asia"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما اسم الخليج الذي تطل عليه الكويت؟",
+    "questionTextEn": "Which gulf does Kuwait face?",
+    "answerAr": "الخليج العربي",
+    "answerEn": "Arabian Gulf",
+    "acceptedAnswers": [
+      "الخليج الفارسي",
+      "الخليج العربي",
+      "Arabian Gulf"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما البرج الأيقوني بثلاث أبراج في الكويت؟",
+    "questionTextEn": "What is Kuwait's iconic triple tower?",
+    "answerAr": "أبراج الكويت",
+    "answerEn": "Kuwait Towers",
+    "acceptedAnswers": [
+      "أبراج الكويت",
+      "Kuwait Towers"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما اسم المجلس التشريعي في الكويت؟",
+    "questionTextEn": "What is Kuwait's parliament called?",
+    "answerAr": "مجلس الأمة",
+    "answerEn": "National Assembly",
+    "acceptedAnswers": [
+      "مجلس الأمة",
+      "National Assembly"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "في أي عام نالت الكويت استقلالها تقريباً؟",
+    "questionTextEn": "Around which year did Kuwait gain independence?",
+    "answerAr": "1961",
+    "answerEn": "1961",
+    "acceptedAnswers": [
+      "١٩٦١",
+      "1961"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما اللغة الرسمية في الكويت؟",
+    "questionTextEn": "Official language of Kuwait?",
+    "answerAr": "العربية",
+    "answerEn": "Arabic",
+    "acceptedAnswers": [
+      "العربية",
+      "Arabic"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما اسم الجزيرة الكويتية الأكبر؟",
+    "questionTextEn": "Kuwait's largest island?",
+    "answerAr": "بوبيان",
+    "answerEn": "Bubiyan",
+    "acceptedAnswers": [
+      "بوبيان",
+      "Bubiyan"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 400,
+    "difficulty": "MEDIUM",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما الزي الرجالي التقليدي الأشهر في الكويت؟",
+    "questionTextEn": "Traditional men's attire in Kuwait?",
+    "answerAr": "الدشداشة",
+    "answerEn": "Dishdasha",
+    "acceptedAnswers": [
+      "ثوب",
+      "الدشداشة",
+      "Dishdasha"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 200,
+    "difficulty": "EASY",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "هل الكويت عضوة في مجلس التعاون الخليجي؟",
+    "questionTextEn": "Is Kuwait in the GCC?",
+    "answerAr": "نعم",
+    "answerEn": "Yes",
+    "acceptedAnswers": [
+      "نعم",
+      "Yes"
+    ]
+  },
+  {
+    "categoryId": "kuwait",
+    "points": 600,
+    "difficulty": "HARD",
+    "type": "TEXT",
+    "language": "ar",
+    "questionTextAr": "ما اسم الميناء التجاري التاريخي المرتبط بغوص اللؤلؤ؟",
+    "questionTextEn": "Historic trade linked to pearl diving?",
+    "answerAr": "الغوص على اللؤلؤ",
+    "answerEn": "Pearl diving",
+    "acceptedAnswers": [
+      "اللؤلؤ",
+      "الغوص على اللؤلؤ",
+      "Pearl diving"
+    ]
+  }
+]

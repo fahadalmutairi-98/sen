@@ -1,0 +1,15 @@
+node_modules
+dist
+.next
+.turbo
+.env
+.env.local
+*.log
+coverage
+.DS_Store
+*.tsbuildinfo
+prisma/*.db
+.vercel
+# Ephemeral API disk uploads (committed web assets live in apps/web/public/uploads)
+apps/api/uploads/
+.deploy/
