@@ -481,7 +481,7 @@ export async function adminRoutes(app: FastifyInstance) {
         mimeType: file.mimetype,
         size: buffer.length,
         url: url || "pending",
-        data: data ?? undefined,
+        data: data ? new Uint8Array(data) : undefined,
       },
     });
 
